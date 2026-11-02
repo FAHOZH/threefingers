@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Three-finger Drag Settings
+Name[zh_CN]=三指拖移设置
+Comment=Enable or disable macOS-style three-finger drag
+Comment[zh_CN]=打开/关闭三指拖移，调整跟手速度
+Exec="@LAUNCHER@" settings
+Icon=threefingers
+Terminal=false
+Categories=Settings;HardwareSettings;
+StartupNotify=true

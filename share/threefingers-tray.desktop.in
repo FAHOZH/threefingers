@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Three-finger Drag Tray
+Name[zh_CN]=三指拖移托盘
+Comment=Touchpad tray icon with a three-finger drag switch
+Comment[zh_CN]=三指拖移开关（系统托盘图标）
+Exec="@LAUNCHER@" tray
+Icon=threefingers
+Terminal=false
+NoDisplay=true
+Hidden=false
+X-GNOME-Autostart-enabled=true

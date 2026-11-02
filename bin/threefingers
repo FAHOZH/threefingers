@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+"""启动器：支持从符号链接（~/.local/bin/threefingers）运行。"""
+
+import os
+import sys
+
+_here = os.path.dirname(os.path.realpath(__file__))
+_project_root = os.path.dirname(_here)
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
+from threefingers.cli import main
+
+if __name__ == "__main__":
+    sys.exit(main())

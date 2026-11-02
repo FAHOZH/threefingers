@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Three-finger Drag Service
+Name[zh_CN]=三指拖移服务
+Comment=macOS-style three-finger drag for the touchpad
+Comment[zh_CN]=像 macOS 一样用三指拖动窗口、选择文字
+Exec="@LAUNCHER@" daemon
+Icon=threefingers
+Terminal=false
+NoDisplay=true
+Hidden=false
+X-GNOME-Autostart-enabled=true

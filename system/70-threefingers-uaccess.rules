@@ -1,0 +1,4 @@
+# 只给当前登录会话的用户授予触控板的读权限，供三指拖移守护进程使用。
+# 不涉及键盘；ID_INPUT_TOUCHPAD 由 60-input-id.rules 设置。
+# 文件名以 70- 开头，确保在 71-seat.rules / 73-seat-late.rules 之前生效。
+ACTION=="add|change", SUBSYSTEM=="input", ENV{ID_INPUT_TOUCHPAD}=="1", TAG+="uaccess"
